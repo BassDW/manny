@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+header {
+    background-color:  #fff;
+    /* position: relative; */
+    /* width: 100%; */
+
+}
+
+header nav {
+    /* position: fixed; */
+    background: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    margin-left: 115px;
+    margin-top: 0px;
+    padding: 15px;
+}
+header nav ul {
+    display: flex;
+    margin: 10px 70px;
+    list-style-type: none;
+
+}
+header nav ul li {
+    margin: 0px 60px;
+
+}
+header nav ul li:hover {
+    color: blue;
+    
+}
+header nav ul li hr:hover {
+    color: red;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 100px;
+    margin-left: 120px;
+
+}
+
+section .carousel {
+    position: relative;
+    width: 550px;
+  }
+
+section .carousel .carousel-container {
+    display: flex;
+    overflow: hidden;
+  }
+
+section .carousel .carousel-container .carousel-item {
+    flex: 0 0 100%;
+  }
+
+.carousel .carousel-container .carousel-item .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+.carousel .carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+}
+
+.carousel .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel .carousel-next {
+    right: 10px;
+  }
+section .bed {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+}
+
+section .bed  h1 {
+    font-size: 45px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+section .bed h4 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 70px;
+}
+
+section .bed .icon {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+
+section .bed .icon p {
+    font-size: 40px;
+    margin: 0px 20px;
+}
+
+section .bed .icon .icon__hr {
+    border: 2px solid rgb(56, 56, 56);
+}
+section .bed .bed__p {
+    font-size: 20px;
+}
+section .bed h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+section .bed div {
+    display: flex;
+    flex-direction: row;
+}
+section .bed div div {
+    margin-top: 230px;
+    margin-left: 10px;
+}
+section .bed div div h3 {
+    font-size: 30px;
+}
+section .bed div div p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+section .bed div div .bed__hr {
+    border: 2px solid gray;
+    margin: 0px 15px;
+}
+
+
+
+article {
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    color: #fff;
+    margin-top: -10px;
+    padding: 50px 130px;
+}
+
+article div h2 {
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+article p {
+    margin-top: 110px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.vid {
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.vid  iframe{
+    border: 5px solid black;
+    width: 85vw;
+    height: 55vh;
+    border-radius: 10px;
+}
+
+.fea {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+}
+
+.fea h2 {
+    text-align: left;
+    color: skyblue;
+    font-size: 60px;
+}
+.fea div {
+    display: flex;
+    margin-left: 20px;
+}
+.fea ul {
+    margin: 20px;
+}
+
+.fea ul li {
+    list-style-type: circle;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 300px;
+}
+.form h1 {
+    font-size: 45px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form form input {
+    display: block;
+    padding: 20px;
+    margin: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.form form input[type=button] {
+    background-color: #000;
+    color: #fff;
+
+}
+
+.form form textarea {
+    display: block;
+    padding: 5px;
+    margin: 10px 50px;
+    color: gray;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+}
+footer div h4 {
+    font-size: 40px;
+    text-align: left;
+    margin-right: 100px;
+}
+
+footer div div {
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+}
+footer div div h5 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+footer div div ul {
+    list-style-position: inside;
+}
+footer div div ul li {
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 0px;
+    /* list-style-position: inside; */
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
